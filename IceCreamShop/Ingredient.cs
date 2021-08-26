@@ -18,7 +18,7 @@ namespace IceCreamShop
 
         public override string ToString()
         {
-            return "Name: " + Name + "\n" + "Cost: $" + string.Format("{0:C}", Cost) + "\n" + "Allergens: " + Allergens + "\n";
+            return "Name: " + Name + "\n" + "Cost: " + string.Format("{0:C}", Cost) + "\n" + "Allergens: " + Allergens + "\n";
         }
     }
 }
